@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Candidate Information</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_login">Login</string>
+    <string name="name">Username</string>
+    <string name="email">email</string>
+    <string name="passWord">Pin</string>
+    <string name="passWorddigits">Enter 6 digit pin</string>
+
+    <string name="confirm_passWord">Confirm Pin</string>
+    <string name="btRegister">regiter</string>
+    <string name="btn_link_to_login">Login</string>
+    <string name="label_signup">Sign Up </string>
+    <string name="phoneno">Mobile No</string>
+    <string name="userid_mobile_no">Mobile no / User id</string>
+
+    <string name="network_info">Please check your network/internet connection</string>
+    <string name="title_activity_voter_details">VoterDetailsActivity</string>
+    <string name="tab_text_1">Information</string>
+    <string name="tab_text_2">Family</string>
+    <string name="tab_text_3">Survey</string>
+    <string name="app_company_name">मतदार सेवा</string>
+    <string name="vilage_name_english">Village</string>
+    <string name="taluka_name_english">Taluka</string>
+    <string name="address_english">Address</string>
+    <string name="pincode_english">Pincode</string>
+    <string name="booth_no_english">Booth No</string>
+    <string name="ward_no_english">Ward No</string>
+    <string name="sr_no_english">Sr No</string>
+    <string name="srno_english">Srn</string>
+    <string name="voter_id_english">Voter Id</string>
+    <string name="house_no_english">House No</string>
+    <string name="age_english">Age</string>
+    <string name="gender_english">Gender</string>
+    <string name="print_english"><u>Print Details</u></string>
+    <string name="share_english">Share</string>
+    <string name="call_english">Call</string>
+    <string name="email_english">Email</string>
+    <string name="mobile_no_english">Mobile No</string>
+    <string name="search_english">Search</string>
+    <string name="advanced_search_english">Adavanced Search</string>
+    <string name="all_voters_from_same_address_english">Voters on same address</string>
+    <string name="all_voters_from_same_booth_english">Voters on same Booth</string>
+
+    <string name="surname_english">Surname</string>
+    <string name="first_name_english">First Name</string>
+    <string name="middle_name_english">Middle Name</string>
+    <string name="from_age_english">From Age</string>
+    <string name="to_age_english">To Age</string>
+    <string name="part_no_english">Part No</string>
+    <string name="name_english">Name</string>
+
+
+    <string name="vilage_name_marathi">गाव</string>
+    <string name="taluka_name_marathi">तालुका</string>
+    <string name="address_marathi">पत्ता</string>
+    <string name="pincode_marathi">पिनकोड </string>
+    <string name="booth_no_marathi">बूथ पत्ता</string>
+    <string name="ward_no_marathi"> यादी भाग</string>
+    <string name="sr_no_marathi">अ क्र </string>
+    <string name="voter_id_marathi">मतदान कार्ड क्र.</string>
+    <string name="house_no_marathi">घर क्र.</string>
+    <string name="age_marathi"> वय </string>
+    <string name="gender_marathi">लिंग</string>
+    <string name="print_marathi">प्रिंट </string>
+    <string name="share_marathi">पाठवा </string>
+    <string name="call_marathi">कॉल</string>
+    <string name="email_marathi">ईमेल</string>
+    <string name="mobile_no_marathi">मोबाईल नंबर </string>
+    <string name="search_marathi">शोधा</string>
+    <string name="advanced_search_marathi">आधुनिक रीतीने शोधा</string>
+    <string name="all_voters_from_same_address_marathi">या पत्त्यावरील सर्व मतदार</string>
+    <string name="all_voters_from_same_booth_marathi">या केंद्रावरील सर्व मतदार</string>
+    <string name="surname_marathi">Surname</string>
+    <string name="part_no_marathi">Part No</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_logout">Logout</string>
+    <string name="poling_station_english">Poling Station</string>
+
+    <string name="poling_station_marathi">मतदान केंद्र</string>
+    <string name="welcome_note">Welcome, please enter your id to login</string>
+    <string name="view_text"><u>View Details </u> </string>
+    <string name="voters_by_gender">Voters By Gender</string>
+    <string name="voters_by_town">Voters By Town</string>
+    <string name="voters_by_booth">Voters By Booth</string>
+    <string name="voters_by_age">Voters By Age</string>
+    <string name="voters_by_surname">Voters By Surname</string>
+    <string name="voters_by_part_no">Voters By Part No</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="list_wise_english">View List</string>
+    <string name="voter_information">Voter Information</string>
+    <string name="family">Family</string>
+    <string name="soa_technologies">SOA Tehnologies</string>
+    <string name="voter_details_marathi">मतदार तपशील</string>
+    <string name="graph_english">Graph Search</string>
+    <string name="voters_by_gender_marathi">स्त्री-पुरुष नुसार मतदार</string>
+    <string name="voters_by_town_marathi">शहरानुसार मतदार</string>
+    <string name="voters_by_booth_marathi">बूथनुसार मतदार</string>
+    <string name="voters_by_age_marathi">वयोगटानुसार मतदार</string>
+    <string name="voters_by_part_no_marathi">"यादी भागानुसार मतदार "</string>
+    <string name="voters_by_surname_marathi">आडनावानुसार मतदार</string>
+    <string name="company_name">Technologies</string>
+    <string name="graph_marathi">आलेखीय शोध</string>
+    <string name="app_headline">Election Voters Search Application</string>
+    <string name="please_enter_mobile_no">Please enter your details</string>
+    <string name="btn_activate">ACTIVATE</string>
+    <string name="please_enter_activation_key">Please enter your activation key</string>
+    <string name="settings_english">Settings</string>
+    <string name="settings_marathi">सेटिंग्ज</string>
+    <string name="voter_details_english">Voter Details</string>
+    <string name="user_profile">Profile</string>
+    <string name="language_search_english">Language</string>
+    <string name="search_voters_english">Search Voters</string>
+    <string name="voters_english">Voters</string>
+    <string name="please_enter_username">"Please enter your username "</string>
+    <string name="username">Username</string>
+    <string name="family_details_english">Family Details</string>
+    <string name="marathi">मराठी</string>
+    <string name="english">English</string>
+    <string name="select_language_english">Select Your Language</string>
+    <string name="voter_name_marathi">नाव </string>
+    <string name="print_details_english">Print Details</string>
+    <string name="family_details_marathi">कुटुंब तपशील</string>
+    <string name="logout_message">Are you sure you want to logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="first_name_maraathi">नाव</string>
+    <string name="middle_name_marathi">वडिलांचे / पतीचे नाव</string>
+    <string name="from_age_marathi">वया पासून</string>
+    <string name="to_age_marathi">वया पर्यंत</string>
+    <string name="marathi_surname">आडनाव</string>
+    <string name="marathi_partno">भाग क्र</string>
+    <string name="logout_marathi">लॉग आउट</string>
+    <string name="logout_english">Logout</string>
+    <string name="language_marathi">भाषा</string>
+    <string name="profile_marathi">उमेदवार प्रोफ़ाइल</string>
+    <string name="profile_english">Candidate Profile</string>
+    <string name="language_english">Language</string>
+    <string name="user_log">User Log</string>
+    <string name="user_log_marathi">युजर लॉग</string>
+    <string name="adv_src_desc">Smart search with filters</string>
+    <string name="src_desc">Quick lookup</string>
+    <string name="grp_desc">Visual data</string>
+    <string name="settings">Preferences</string>
+    <string name="profile_desc">Details about a candidate</string>
+    <string name="user_log_desc">User activities</string>
+    <string name="logout_desc">Exit</string>
+    <string name="about_soa_des">Technologies</string>
+    <string name="about_soa_information">
+        <![CDATA[
+SOA Technology stands as a symbol of innovation, precision, and purpose. With a shared vision to bridge the gap between technology and real-world needs, the trio established SOA Technology not just as a firm, but as a mission to design, develop, and deliver customer-oriented solutions that make a lasting impact.<br><br>
+At SOA, we believe that technology is not just about code — it’s about creating value. Our solutions are crafted with deep domain understanding and user empathy, ensuring every project contributes meaningfully across diverse sectors:<br>
+&bull;  Education: Empowering digital learning and smart institutions<br>
+&bull;  Political: Enhancing communication, outreach, and data-driven governance<br>
+&bull;  Business: Streamlining operations and accelerating digital transformation<br>
+&bull;  Society: Creating tech-enabled social impact platforms<br>
+&bull;  Construction and Infrastructure: Driving smarter, scalable, and efficient project execution<br><br>
+With a foundation rooted in Service-Oriented Architecture (SOA) principles, we ensure our systems are scalable, flexible, and future-ready. Our commitment to excellence, coupled with a customer-first mindset, makes us more than just a tech company — we are your strategic partner in transformation.<br><br>
+SOA Technology — Where Solutions Meet Purpose.
+]]></string>
+
+
+    <string name="about_soa_information_marathi">
+       <![CDATA[
+एसओए टेक्नॉलॉजीज हे नाव नाविन्य, अचूकता आणि ठाम उद्देशाचे प्रतीक आहे. तंत्रज्ञान आणि रोजच्या जीवनातील गरजांमधला दुवा जोडण्यासाठी, आमच्या तीन संस्थापकांनी ही कंपनी केवळ एक व्यवसाय म्हणून नाही, तर एक ध्येय म्हणून सुरू केली — ज्या माध्यमातून ग्राहकांच्या गरजेनुसार उपयोगी आणि प्रभावी तंत्रस्नेही सोल्युशन्स तयार करता येतील.<br><br>
+एसओएमध्ये आमचा विश्वास आहे की तंत्रज्ञान म्हणजे फक्त कोड लिहिणे नव्हे, तर त्यातून मूल्य निर्माण करणे महत्त्वाचे आहे. आमची सोल्युशन्स विशिष्ट क्षेत्रातील ज्ञान आणि वापरकर्त्यांच्या गरजा लक्षात घेऊन तयार केली जातात, जेणेकरून प्रत्येक प्रकल्प समाजात काहीतरी चांगले योगदान देऊ शकेल:<br>
+&bull;	शिक्षण: डिजिटल शिक्षण आणि स्मार्ट शाळा-संस्थांना सक्षम करणे<br>
+&bull;	राजकारण: जनतेशी संवाद आणि डेटा आधारित निर्णयप्रक्रिया सुधारणे<br>
+&bull;	व्यवसाय: कामकाज सोपे करणे आणि डिजिटल पद्धतीने वाढ साधणे<br>
+&bull;	समाज: तंत्रज्ञानाच्या मदतीने सामाजिक प्रकल्प तयार करणे<br>
+&bull;	बांधकाम आणि पायाभूत सुविधा: स्मार्ट, सुरक्षित आणि चांगल्या योजना तयार करणे<br>
+&bull;	शेती: स्मार्ट शेतीसाठी तंत्रज्ञान, माहिती आणि डेटा यांचा उपयोग करणे<br><br>
+आमचं काम Service-Oriented Architecture (SOA) या तत्त्वांवर आधारित आहे. त्यामुळे आमची सिस्टिम्स स्केलेबल, लवचिक आणि भविष्यातील गरजांसाठी तयार असतात. ग्राहकांची गरज आणि समाधान हे आमचं मुख्य लक्ष असतं.<br><br>
+एसओए टेक्नॉलॉजीज — जिथे उपाय आणि उद्देश एकत्र येतात.
+]]>
+    </string>
+    <string name="about_soa">About SOA Technologies</string>
+    <string name="about_soa_marathi"> SOA Technology विषयी</string>
+</resources>

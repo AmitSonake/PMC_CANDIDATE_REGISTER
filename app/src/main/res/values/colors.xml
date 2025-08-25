@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#DDED4613</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#9F9C9C</color>
+    <color name="list_color">#FFFFFFFF</color>
+    <color name="list_colors">#E8F3C8</color>
+    <color name="red_color">#D50000</color>
+    <color name="green_color">#4D8144</color>
+    <color name="screen_color">#3F6750</color>
+    <color name="bg_color">#F4511E</color>
+    <color name="list_item_bg">#22262F</color>
+    <color name="bg_list">#21252E</color>
+    <color name="btn_border">#FFB300</color>
+    <color name="card_border">#F46507</color>
+    <color name="cordinter_bg">#97380E</color>
+
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+
+    <color name="purple_2000">#0F9D58</color>
+    <color name="purple_5000">#0F9D58</color>
+    <color name="purple_7000">#0F9D58</color>
+    <color name="teal_2000">#FF03DAC5</color>
+    <color name="teal_7000">#FF018786</color>
+    <color name="blackk">#FF000000</color>
+    <color name="whitee">#FFFFFFFF</color>
+    <color name="grey">#aaa</color>
+    <color name="button_color">#1E573B</color>
+
+    <color name="yellow">#FFEB3B</color>
+    <color name="red">#F44336</color>
+
+
+    <color name="male_color">#2196F3</color>
+    <color name="female_color">#ff1ab3</color>
+    <color name="transgender_color">#4CAF50</color>
+    <color name="other_color">#FFEB3B</color>
+    <color name="default_gender_color">#9E9E9E</color>
+</resources>

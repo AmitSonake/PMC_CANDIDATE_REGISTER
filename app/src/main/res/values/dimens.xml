@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="schedule_text">15dip</dimen>
+    <dimen name="top_mar">8dip</dimen>
+    <dimen name="btn_height">30dip</dimen>
+
+    <dimen name="et_otp_width">40dp</dimen>
+    <dimen name="et_otp_height">40dp</dimen>
+    <dimen name="margin_right_otp">20dp</dimen>
+    <dimen name="subtitle">18sp</dimen>
+    <dimen name="label_size">15sp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="title">18sp</dimen>
+    <dimen name="sub_label">12sp</dimen>
+    <dimen name="sub_title">15sp</dimen>
+</resources>

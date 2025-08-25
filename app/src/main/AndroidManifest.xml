@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_user"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_user"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VoterSearch"
+        android:usesCleartextTraffic="true"
+        android:name="com.example.registercandidate.RegisterCandidateApplication"
+        >
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.registercandidate.fileprovider"  android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <activity
+            android:name="com.example.registercandidate.ui.SplashActivity"
+            android:screenOrientation="sensorPortrait"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.registercandidate.RegisterCandidate"
+            android:screenOrientation="sensorPortrait"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name="com.example.registercandidate.CandidateListActivity"
+            android:screenOrientation="sensorPortrait"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name="com.example.registercandidate.HomeActivity"
+            android:screenOrientation="sensorPortrait"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name="com.example.registercandidate.EditCandidate"
+            android:screenOrientation="sensorPortrait"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>

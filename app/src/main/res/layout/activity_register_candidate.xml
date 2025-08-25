@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate Details"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_marginBottom="8dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Candidate Name (English)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/candidateNameEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Candidate Name (Marathi)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/candidateNameMarathi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Party Name (English)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PartNameEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Party Name (Marathi)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PartyNameMarathi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth(dd-mm-yyyy)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/DOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Photo Path">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/PhotoPath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/uploadPhotoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Logo Path">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/LogoPath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/uploadLogoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Party Logo Path">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/PartyLogoPath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/uploadPartyLogoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload" />
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Banner Path">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/BannerPath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/uploadBannerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Slip Print Path">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SlipPrintPath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/uploadSlipPrintButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Slip Print (English)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SliPrintEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Slip Print (Marathi)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SliPrintMarathi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activation Key">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/activationKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Register" />
+    <View
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"/>
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+</LinearLayout>
+</ScrollView>

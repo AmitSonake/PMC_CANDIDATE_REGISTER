@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/list_item_radious"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/list_item_radious"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:id="@+id/tvVoterName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Omkar Narayan Tupe"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvVoterAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="27th Avenue, Bavdhan, Pune-411 021"
+
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnView"
+            style="@style/orange_button_list_item"
+            android:text="Edit Details"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
